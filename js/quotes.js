@@ -46,5 +46,8 @@ const quotes = [
 
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
-quote.innerText(quotes[0].quote);
-author.innerText(quotes[0].author);
+
+const randomPickQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+quote.innerText = randomPickQuote.quote;
+author.innerText = randomPickQuote.author;
