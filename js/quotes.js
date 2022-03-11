@@ -46,3 +46,5 @@ const quotes = [
 
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
+quote.innerText(quotes[0].quote);
+author.innerText(quotes[0].author);
