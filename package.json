@@ -1,0 +1,22 @@
+{
+  "name": "clone_app_momentum",
+  "version": "1.0.0",
+  "description": "make a chrome app with VanillaJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eulga/Clone_App_Momentum.git"
+  },
+  "keywords": [
+    "nomad"
+  ],
+  "author": "eulga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eulga/Clone_App_Momentum/issues"
+  },
+  "homepage": "https://github.com/Eulga/Clone_App_Momentum#readme"
+}
