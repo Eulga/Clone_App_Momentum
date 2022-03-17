@@ -13,16 +13,21 @@ body {
   background-size: cover;
 }
 
-#main-display {
-  margin: 50vh auto 0 auto;
-  transform: translateY(-50%);
+main {
+  width: 100%;
+  height: 100%;
   text-align: center;
+}
+
+#main-display {
+  display: flex;
+  flex-direction: column;
   background: rgba(39, 39, 39, 0.467);
+  color: #fff;
+  align-items: center;
 }
 #main-display #clock {
-  display: inline-block;
-  font-size: 15rem;
-  color: white;
+  font-size: 10rem;
 }
 #main-display #login-form input {
   width: 45rem;
@@ -33,17 +38,37 @@ body {
   outline: 0;
   text-align: center;
   background: 0;
-  color: white;
+  color: #fff;
 }
-#main-display #login-form ::placeholder {
+#main-display #login-form input::placeholder {
   color: white;
 }
 #main-display #login-form input:focus::placeholder {
   color: transparent;
 }
 #main-display #greeting {
-  color: white;
   font-size: 3.8rem;
+}
+#main-display #todo-section h2 {
+  margin-top: 7rem;
+  font-size: 3rem;
+}
+#main-display #todo-section #todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+#main-display #todo-section input {
+  width: 45rem;
+  height: 5rem;
+  font-size: 3.8rem;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  outline: 0;
+  text-align: center;
+  background: 0;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

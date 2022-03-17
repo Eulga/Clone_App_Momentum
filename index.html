@@ -9,33 +9,47 @@
   </head>
 
   <body>
-    <div id="main-display">
-      <h2 id="clock">00:00</h2>
-      <form class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="what is your name?"
-        />
-        <button>Log In</button>
-      </form>
-      <h1 id="greeting" class="hidden"></h1>
-    </div>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" />
-    </form>
+    <main>
+      <!---->
+      <div>
+        <div>clock welcome todolist</div>
+        <div>quote</div>
+        <div>weather</div>
+      </div>
+    </main>
 
-    <ul id="todo-list"></ul>
+    <main>
+      <div id="main-display">
+        <h2 id="clock">00:00</h2>
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="what is your name?"
+          />
+          <button>Log In</button>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <div id="todo-section">
+          <h2>What is your main focus today?</h2>
+          <form id="todo-form">
+            <input type="text" />
+          </form>
+        </div>
+        <ul id="todo-list"></ul>
+      </div>
 
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </main>
 
     <script src="js/KEYs.js"></script>
     <script src="js/greetings.js"></script>
