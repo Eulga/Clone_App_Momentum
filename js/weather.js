@@ -14,7 +14,7 @@ function onGeoOk(position) {
       city.innerText = data.name;
       weather.innerText = `${data.weather[0].main} / ${Math.round(
         data.main.temp
-      )} °C`;
+      )}°C`;
     });
 }
 
